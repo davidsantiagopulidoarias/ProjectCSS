@@ -1,0 +1,35 @@
+body{
+
+    background-color: #1c2a3d;
+    font-style: italic;
+    
+    
+
+}
+.header-title{
+
+    font-size: 30px;
+    color: #b6a2dd;
+    text-align: center;
+
+
+}
+li {
+
+   color:#b6a2dd;
+   font-size: large;
+    }
+img{
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    shape-image-threshold: inherit;
+}
+footer{
+    background: #2f2f2f;
+    text-align: center;
+    font-style: italic;
+    padding: 80px0;
+    font-size: 20px;
+    color: #fff;
+}
