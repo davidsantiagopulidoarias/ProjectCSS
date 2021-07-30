@@ -1,35 +1,48 @@
-body{
+.barra_general 
+    {
 
-    background-color: #1c2a3d;
-    font-style: italic;
-    
-    
+        margin-top: 00px; /*comando utilizado para mover hacia abajo una caja*/
+        list-style: none; /*comando utilizado para personalizar los puntos de una lista desordenada*/
+        padding-left: 00px; /*comando utilizado para poner una especie de sangria*/
+        background-position: center;
+        background-color: rgb(56, 45, 83); /*comando utilizado para cambiar el fondo de color*/
+        text-align: center;
 
-}
-.header-title{
+    }   
 
-    font-size: 30px;
-    color: #b6a2dd;
-    text-align: center;
+.barra_general--item
+    {
 
+        display: inline-block; /*poner de manera vertical la lista*/ 
+        background-color: rgb(117, 66, 158);/*le pone un borde a los elementos de la lista*/
+        border-radius: 10px;
+        font-size: 20px;
 
-}
-li {
-
-   color:#b6a2dd;
-   font-size: large;
     }
-img{
-    border-radius: 10px;
-    width: 300px;
-    height: 100px;
-    shape-image-threshold: inherit;
-}
-footer{
-    background: #2f2f2f;
-    text-align: center;
-    font-style: italic;
-    padding: 80px0;
-    font-size: 20px;
-    color: #fff;
-}
+.barra_general--item a /* se pone a ya que la entrada es a un link*/
+    {
+
+        color: rgb(255, 255, 255);
+        padding-left: 5px;
+        text-decoration: none; /*Quita el hipervinculo y se puede poner otro color */
+        
+    }
+.barra_general--item a:hover /* los : son de pseudo clase donde se define el estilo de un estado 
+                                 hover se usa cuando se coloca el maouse sobre el enlace y este cambia de color */
+    {
+        color: rgba(244, 247, 247, 0);
+
+
+    }
+.barra_general--item a:active /*al presionar el texto cambia de color*/
+    {
+        color: rgba(74, 206, 206, 0.938);
+
+
+    }
+.barra_general--item a::after /* los :: son pseudo elemntos que definen el estilo de una parte
+                                after agrega alfo despues de caa item*/
+    {
+        content: "!";
+
+    }
